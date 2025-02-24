@@ -1,0 +1,71 @@
+# Ignore virtual environment directories
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Ignore mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore pytype static type analyzer
+.pytype/
+
+# Ignore Cython debug symbols
+cython_debug/
+
+# Ignore Jupyter Notebook configuration
+profile_default/
+ipython_config.py
+
+# Ignore other unnecessary files
+*.manifest
+*.spec
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.DS_Store
+*.egg-info
+poetry.toml
+.ruff_cache/
+pyrightconfig.json
+# in codebase
+output.xlsx
+.gitignore
+README.md
+Untitled.ipynb
