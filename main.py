@@ -15,5 +15,5 @@ df["قد نرمال"] = (df["قد (cm)"] - df["قد (cm)"].min()) / (df["قد (c
 df["وزن نرمال"] = (df["وزن (kg)"] - df["وزن (kg)"].min()) / (df["وزن (kg)"].max() - df["وزن (kg)"].min())
 
 # Save the DataFrame to an Excel file
-file_path = "output.xlsx"
+file_path = "data/output.xlsx"
 df.to_excel(file_path, index=False)
